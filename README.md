@@ -21,7 +21,6 @@ This project demonstrates deploying a web application integrated with a MongoDB 
 ## 🌟 Prerequisites
 - 🖥️ Basic knowledge of Docker and Kubernetes.
 - 🛠️ Tools: Docker, kubectl, and Minikube.
-- 🌐 Internet connection.
 
 ---
 
