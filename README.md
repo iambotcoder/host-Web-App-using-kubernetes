@@ -9,7 +9,6 @@ This project demonstrates deploying a web application integrated with a MongoDB 
 - [🌟 Prerequisites](#-prerequisites)
 - [🏗️ Architecture](#️-architecture)
 - [⚙️ Setup & Installation](#️-setup--installation)
-  - [🐳 Docker Setup](#-docker-setup)
   - [☸️ Kubernetes Deployment](#️-kubernetes-deployment)
 - [📤 Output](#-output)
 - [🧹 Cleaning Up Resources](#-cleaning-up-resources)
