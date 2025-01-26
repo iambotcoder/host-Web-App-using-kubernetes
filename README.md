@@ -95,4 +95,4 @@ This project highlights the deployment of a containerized web application and da
 ---
 
 ## 🙏 Acknowledgment
-Special thanks to [Nana Janashia](https://www.linkedin.com/in/nanajanashia/) for her mentorship and guidance in building this project.
+Special thanks to [Nana Janashia](https://gitlab.com/nanuchi) for her mentorship and guidance in building this project.
