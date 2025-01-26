@@ -29,23 +29,23 @@ Below is the visual representation of the project architecture:
 
 ```plaintext
 +-------------------+
-|   Internet/Browser  |
+|  Internet/Browser |
 +-------------------+
          |
          v
-+-------------------+
++--------------------+
 | Kubernetes Service |
++--------------------+
+         |
+         v
++-------------------+
+|  Web Application  |
+|  (Node.js-based)  |
 +-------------------+
          |
          v
 +-------------------+
-|  Web Application   |
-|  (Node.js-based)   |
-+-------------------+
-         |
-         v
-+-------------------+
-|    MongoDB DB      |
+|    MongoDB DB     |
 +-------------------+
 ```
 ### Description:
