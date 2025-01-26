@@ -37,8 +37,9 @@ Below is the visual representation of the project architecture:
 
 ## ⚙️ Setup & Installation
 
-### 🐳 Setup minikube using docker
-  Run following command
+### 🐳 Start a local Kubernetes cluster using Docker as the virtualization driver.
+  Run following command.
+  
   ```bash
   minikube start --driver docker
   ```
