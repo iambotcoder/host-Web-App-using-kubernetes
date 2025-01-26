@@ -69,6 +69,8 @@ Below is the visual representation of the project architecture:
 ## 📤 Output
 - The web application is successfully deployed and accessible.
 - MongoDB serves as the database backend.
+  
+![Kubernetes Output](https://github.com/user-attachments/assets/889ef1de-6d32-44a9-9173-03d6d712a4b1)
 
 ---
 
