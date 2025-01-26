@@ -64,7 +64,6 @@ Below is the visual representation of the project architecture:
 ## 📤 Output
 - The web application is successfully deployed and accessible.
 - MongoDB serves as the database backend.
-- Example screenshot or link: 🌐 [Web Application Output](#).
 
 ---
 
