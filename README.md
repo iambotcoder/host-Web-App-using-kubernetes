@@ -37,27 +37,32 @@ Below is the visual representation of the project architecture:
 
 ## ⚙️ Setup & Installation
 
-### ☸️ Kubernetes Deployment
-1. Apply the `mongo-config.yaml`:
-   ```bash
-   kubectl apply -f mongo-config.yaml
-   ```
-2. Apply the `mongo-secret.yaml`:
-   ```bash
-   kubectl apply -f mongo-secret.yaml
-   ```
-3. Deploy MongoDB using `mongo.yaml`:
-   ```bash
-   kubectl apply -f mongo.yaml
-   ```
-4. Deploy the web application using `webapp.yaml`:
-   ```bash
-   kubectl apply -f webapp.yaml
-   ```
-5. Access the web app:
-   ```bash
-   minikube service webapp-service
-   ```
+### 🐳 Setup minikube using docker
+  Run following command
+  ```bash
+  minikube start --driver docker
+  ```
+  ### ☸️ Kubernetes Deployment
+  1. Apply the `mongo-config.yaml`:
+     ```bash
+     kubectl apply -f mongo-config.yaml
+     ```
+  2. Apply the `mongo-secret.yaml`:
+     ```bash
+     kubectl apply -f mongo-secret.yaml
+     ```
+  3. Deploy MongoDB using `mongo.yaml`:
+     ```bash
+     kubectl apply -f mongo.yaml
+     ```
+  4. Deploy the web application using `webapp.yaml`:
+     ```bash
+     kubectl apply -f webapp.yaml
+     ```
+  5. Access the web app:
+     ```bash
+     minikube service webapp-service
+     ```
 
 ---
 
