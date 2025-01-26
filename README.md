@@ -77,7 +77,7 @@ kubectl delete -f mongo-config.yaml
 ```
 Stop Minikube:
 ```bash
-minikube stop
+minikube delete
 ```
 
 ---
