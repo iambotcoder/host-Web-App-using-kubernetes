@@ -27,53 +27,15 @@ This project demonstrates deploying a web application integrated with a MongoDB 
 ## 🏗️ Architecture
 Below is the visual representation of the project architecture:
 
-```plaintext
-+-------------------+
-|  Internet/Browser |
-+-------------------+
-         |
-         v
-+--------------------+
-| Kubernetes Service |
-+--------------------+
-         |
-         v
-+-------------------+
-|  Web Application  |
-|  (Node.js-based)  |
-+-------------------+
-         |
-         v
-+-------------------+
-|    MongoDB DB     |
-+-------------------+
-```
-### Description:
-- **Internet/Browser:** End-users access the web application via the browser.
-- **Kubernetes Service:** Exposes the application to the external network using a NodePort service.
-- **Web Application:** A containerized Node.js-based web app.
-- **MongoDB Database:** Stores application data, configured using Kubernetes secrets and ConfigMaps.
+![Screenshot 2025-01-25 112605](https://github.com/user-attachments/assets/9188f4bb-04fa-43cd-befe-06610f1c97f3)
 
 ---
+## 📝Project Outline 
+
+![Screenshot 2025-01-25 112751](https://github.com/user-attachments/assets/8f775cd8-3bd7-440d-9239-6edd68c24fa1)
+
 
 ## ⚙️ Setup & Installation
-### 🐳 Docker Setup
-1. Create a `Dockerfile` for the web application.
-2. Build the Docker image:
-   ```bash
-   docker build -t webapp-image .
-   ```
-3. Run the Docker container:
-   ```bash
-   docker run -p 3000:3000 webapp-image
-   ```
-4. Push the Docker image to Docker Hub:
-   ```bash
-   docker tag webapp-image <dockerhub-username>/webapp-image
-   docker push <dockerhub-username>/webapp-image
-   ```
-
----
 
 ### ☸️ Kubernetes Deployment
 1. Apply the `mongo-config.yaml`:
